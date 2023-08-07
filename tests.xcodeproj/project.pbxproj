@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03018F4C2A7291310089C702 /* Play_with_mage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03018F4B2A7291310089C702 /* Play_with_mage.swift */; };
+		03018F4E2A729AC90089C702 /* SelfControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03018F4D2A729AC90089C702 /* SelfControl.swift */; };
+		032726202A78E7C700E96292 /* filefiel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327261F2A78E7C700E96292 /* filefiel.swift */; };
+		032726222A7CBD3A00E96292 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726212A7CBD3A00E96292 /* MainView.swift */; };
+		032726242A81068A00E96292 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726232A81068A00E96292 /* Profile.swift */; };
+		032726282A81121300E96292 /* ChairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726272A81121300E96292 /* ChairModel.swift */; };
+		0327262A2A81121C00E96292 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726292A81121C00E96292 /* Item.swift */; };
 		038B76F629F186D40016522A /* testsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B76F529F186D40016522A /* testsApp.swift */; };
 		038B76F829F186D40016522A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B76F729F186D40016522A /* ContentView.swift */; };
 		038B76FA29F186D50016522A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038B76F929F186D50016522A /* Assets.xcassets */; };
@@ -14,6 +21,7 @@
 		038B770829F186D60016522A /* testsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B770729F186D60016522A /* testsTests.swift */; };
 		038B771229F186D60016522A /* testsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B771129F186D60016522A /* testsUITests.swift */; };
 		038B771429F186D60016522A /* testsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B771329F186D60016522A /* testsUITestsLaunchTests.swift */; };
+		03CFA1BD2A6EA53900E9D5E4 /* USG_Summer_Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CFA1BC2A6EA53900E9D5E4 /* USG_Summer_Hello.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03018F4B2A7291310089C702 /* Play_with_mage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_with_mage.swift; sourceTree = "<group>"; };
+		03018F4D2A729AC90089C702 /* SelfControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfControl.swift; sourceTree = "<group>"; };
+		0327261F2A78E7C700E96292 /* filefiel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filefiel.swift; sourceTree = "<group>"; };
+		032726212A7CBD3A00E96292 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		032726232A81068A00E96292 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		032726272A81121300E96292 /* ChairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairModel.swift; sourceTree = "<group>"; };
+		032726292A81121C00E96292 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		038B76F229F186D40016522A /* tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038B76F529F186D40016522A /* testsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsApp.swift; sourceTree = "<group>"; };
 		038B76F729F186D40016522A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,7 @@
 		038B770D29F186D60016522A /* testsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		038B771129F186D60016522A /* testsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsUITests.swift; sourceTree = "<group>"; };
 		038B771329F186D60016522A /* testsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03CFA1BC2A6EA53900E9D5E4 /* USG_Summer_Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USG_Summer_Hello.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,15 @@
 			isa = PBXGroup;
 			children = (
 				038B76F529F186D40016522A /* testsApp.swift */,
+				03CFA1BC2A6EA53900E9D5E4 /* USG_Summer_Hello.swift */,
+				03018F4B2A7291310089C702 /* Play_with_mage.swift */,
+				032726212A7CBD3A00E96292 /* MainView.swift */,
+				0327261F2A78E7C700E96292 /* filefiel.swift */,
 				038B76F729F186D40016522A /* ContentView.swift */,
+				03018F4D2A729AC90089C702 /* SelfControl.swift */,
+				032726272A81121300E96292 /* ChairModel.swift */,
+				032726292A81121C00E96292 /* Item.swift */,
+				032726232A81068A00E96292 /* Profile.swift */,
 				038B76F929F186D50016522A /* Assets.xcassets */,
 				038B76FB29F186D50016522A /* tests.entitlements */,
 				038B76FC29F186D50016522A /* Preview Content */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0327262A2A81121C00E96292 /* Item.swift in Sources */,
 				038B76F829F186D40016522A /* ContentView.swift in Sources */,
+				032726242A81068A00E96292 /* Profile.swift in Sources */,
+				032726222A7CBD3A00E96292 /* MainView.swift in Sources */,
+				032726202A78E7C700E96292 /* filefiel.swift in Sources */,
+				03018F4C2A7291310089C702 /* Play_with_mage.swift in Sources */,
+				03CFA1BD2A6EA53900E9D5E4 /* USG_Summer_Hello.swift in Sources */,
+				032726282A81121300E96292 /* ChairModel.swift in Sources */,
 				038B76F629F186D40016522A /* testsApp.swift in Sources */,
+				03018F4E2A729AC90089C702 /* SelfControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
