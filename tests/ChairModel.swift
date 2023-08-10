@@ -33,7 +33,10 @@ struct ItemRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(height: 80)
-            Text(item.name)
+            VStack(alignment: .leading){
+                Text(item.name)
+                Text(item.user)
+            }
             Spacer()
             Text("\(item.price)원")
         }

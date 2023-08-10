@@ -135,13 +135,15 @@ struct SelfControl: View {
                 }
             }
             HStack{
-                Image("me")
+                Image(item.user)
                     .resizable()
-                    .scaledToFit()
-                    .frame(height: 50)
+                    //.scaledToFit()
+                    .frame(width: 50, height: 50)
+                    .clipped()
                     .clipShape(Circle())
                     .padding(.leading)
-                Text("다자바")
+                    //.border(.red)
+                Text(item.user)
                     .bold()
                 Spacer()
                 NavigationLink(destination: Text("구매하기")) {
@@ -204,6 +206,6 @@ struct Comment: View {
 
 struct SelfControl_Previews: PreviewProvider {
     static var previews: some View {
-        SelfControl(item: itemSample.first!)
+        SelfControl(item: itemSample[4])
     }
 }

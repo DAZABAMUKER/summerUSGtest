@@ -14,6 +14,9 @@
 		032726242A81068A00E96292 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726232A81068A00E96292 /* Profile.swift */; };
 		032726282A81121300E96292 /* ChairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726272A81121300E96292 /* ChairModel.swift */; };
 		0327262A2A81121C00E96292 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032726292A81121C00E96292 /* Item.swift */; };
+		0327262C2A84F6EB00E96292 /* USG_CLASS_Prac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327262B2A84F6EB00E96292 /* USG_CLASS_Prac.swift */; };
+		0327262E2A850BAF00E96292 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327262D2A850BAF00E96292 /* User.swift */; };
+		032726302A850CB300E96292 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0327262F2A850CB300E96292 /* Store.swift */; };
 		038B76F629F186D40016522A /* testsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B76F529F186D40016522A /* testsApp.swift */; };
 		038B76F829F186D40016522A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038B76F729F186D40016522A /* ContentView.swift */; };
 		038B76FA29F186D50016522A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 038B76F929F186D50016522A /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		032726232A81068A00E96292 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		032726272A81121300E96292 /* ChairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairModel.swift; sourceTree = "<group>"; };
 		032726292A81121C00E96292 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0327262B2A84F6EB00E96292 /* USG_CLASS_Prac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USG_CLASS_Prac.swift; sourceTree = "<group>"; };
+		0327262D2A850BAF00E96292 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0327262F2A850CB300E96292 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		038B76F229F186D40016522A /* tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		038B76F529F186D40016522A /* testsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsApp.swift; sourceTree = "<group>"; };
 		038B76F729F186D40016522A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +127,9 @@
 				032726272A81121300E96292 /* ChairModel.swift */,
 				032726292A81121C00E96292 /* Item.swift */,
 				032726232A81068A00E96292 /* Profile.swift */,
+				0327262D2A850BAF00E96292 /* User.swift */,
+				0327262F2A850CB300E96292 /* Store.swift */,
+				0327262B2A84F6EB00E96292 /* USG_CLASS_Prac.swift */,
 				038B76F929F186D50016522A /* Assets.xcassets */,
 				038B76FB29F186D50016522A /* tests.entitlements */,
 				038B76FC29F186D50016522A /* Preview Content */,
@@ -286,10 +295,13 @@
 				0327262A2A81121C00E96292 /* Item.swift in Sources */,
 				038B76F829F186D40016522A /* ContentView.swift in Sources */,
 				032726242A81068A00E96292 /* Profile.swift in Sources */,
+				0327262C2A84F6EB00E96292 /* USG_CLASS_Prac.swift in Sources */,
 				032726222A7CBD3A00E96292 /* MainView.swift in Sources */,
 				032726202A78E7C700E96292 /* filefiel.swift in Sources */,
 				03018F4C2A7291310089C702 /* Play_with_mage.swift in Sources */,
+				032726302A850CB300E96292 /* Store.swift in Sources */,
 				03CFA1BD2A6EA53900E9D5E4 /* USG_Summer_Hello.swift in Sources */,
+				0327262E2A850BAF00E96292 /* User.swift in Sources */,
 				032726282A81121300E96292 /* ChairModel.swift in Sources */,
 				038B76F629F186D40016522A /* testsApp.swift in Sources */,
 				03018F4E2A729AC90089C702 /* SelfControl.swift in Sources */,
