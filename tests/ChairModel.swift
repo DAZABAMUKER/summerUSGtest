@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ChairModel: View {
+    
+    @ObservedObject var store: Store
+    
     var body: some View {
         NavigationStack{
-            List(itemSample) { item in
+            List($store.products) { $item in
                 NavigationLink {
-                    SelfControl(item: item)
+                    SelfControl(item: $item)
                 } label: {
                     ItemRow(item: item)
                 }
@@ -46,6 +49,6 @@ struct ItemRow: View {
 
 struct ChairModel_Previews: PreviewProvider {
     static var previews: some View {
-        ChairModel()
+        ChairModel(store: Store())
     }
 }

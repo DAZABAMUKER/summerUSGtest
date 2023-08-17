@@ -15,6 +15,7 @@ struct Item: Identifiable {
     let brand: String = "이케아"
     let date: String = "2021년 1월 13일"
     var user: String = "me"
+    var heart: Bool = false
 }
 
 let itemSample: [Item] = [

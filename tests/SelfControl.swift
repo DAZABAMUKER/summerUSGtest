@@ -13,7 +13,7 @@ struct SelfControl: View {
     @State var continueous = false
     @State var imageIndex = 0
     
-    let item: Item
+    @Binding var item: Item
     
     var body: some View {
         NavigationStack{
@@ -33,7 +33,7 @@ struct SelfControl: View {
                 info
                 commentScroll
             }
-            .preferredColorScheme(.light) //다크모드 막음 .dark 이면 다크모드로만 작동
+            .preferredColorScheme(.dark) //다크모드 막음 .dark 이면 다크모드로만 작동
             .navigationTitle("의자 정보")
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
@@ -126,9 +126,9 @@ struct SelfControl: View {
                 Spacer()
                 
                 Button {
-                    self.like.toggle()
+                    item.heart.toggle()
                 } label: {
-                    Image(systemName: self.like ? "heart" : "heart.fill")
+                    Image(systemName: !self.item.heart ? "heart" : "heart.fill")
                         .scaleEffect(1.5)
                         .padding()
                         .foregroundColor(.red)
@@ -206,6 +206,6 @@ struct Comment: View {
 
 struct SelfControl_Previews: PreviewProvider {
     static var previews: some View {
-        SelfControl(item: itemSample[4])
+        SelfControl(item: .constant(itemSample[4]))
     }
 }

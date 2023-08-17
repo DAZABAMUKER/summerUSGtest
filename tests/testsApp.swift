@@ -11,7 +11,7 @@ import SwiftUI
 struct testsApp: App {
     var body: some Scene {
         WindowGroup {
-            USG_CLASS_Prac()
+            TabViews()
         }
     }
 }

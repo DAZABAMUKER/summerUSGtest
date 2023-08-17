@@ -38,13 +38,13 @@ struct MainView: View {
                         Text("예약")
                     }
                 }
-            SelfControl(item: itemSample.first!)
-                .tabItem {
-                    VStack{
-                        Image(systemName: "gear")
-                        Text("설정")
-                    }
-                }
+//            SelfControl(item: itemSample.first!)
+//                .tabItem {
+//                    VStack{
+//                        Image(systemName: "gear")
+//                        Text("설정")
+//                    }
+//                }
             
             
         }

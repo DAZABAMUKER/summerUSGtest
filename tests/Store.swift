@@ -7,6 +7,6 @@
 
 import Foundation
 
-class Store {
-    var products: [Item] = itemSample
+class Store: ObservableObject {
+    @Published var products: [Item] = itemSample
 }
