@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>700411535992-1vh7ohjv9jjjsqps3amtut45kndsfo85.apps.googleusercontent.com</string>
+	<string></string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.700411535992-1vh7ohjv9jjjsqps3amtut45kndsfo85</string>
+	<string></string>
 	<key>API_KEY</key>
-	<string>AIzaSyCsaEmFLSo05i2ocjXhGLd-0Z5zy6BHczg</string>
+	<string></string>
 	<key>GCM_SENDER_ID</key>
-	<string>700411535992</string>
+	<string></string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:700411535992:ios:61c115637e8284db14838d</string>
+	<string>1::ios:</string>
 	<key>DATABASE_URL</key>
 	<string>https://usgsummer-default-rtdb.asia-southeast1.firebasedatabase.app</string>
 </dict>
