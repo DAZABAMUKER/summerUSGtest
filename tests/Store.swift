@@ -8,5 +8,5 @@
 import Foundation
 
 class Store: ObservableObject {
-    @Published var products: [Item] = itemSample
+    @Published var products: [ChairInfo] = []
 }
